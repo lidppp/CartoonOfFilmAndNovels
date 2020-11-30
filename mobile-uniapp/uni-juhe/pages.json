@@ -1,0 +1,101 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小说",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				 "backgroundTextStyle": "light"  //下拉 loading 的样式，仅支持 dark/light
+			}
+		}
+		,{
+		    "path" : "pages/mhIndex/mhIndex",
+		    "style" : {
+				"navigationBarTitleText": "漫画",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				 "backgroundTextStyle": "light"  //下拉 loading 的样式，仅支持 dark/light
+			}
+		}
+		,{
+		    "path" : "pages/ysIndex/ysIndex",
+		    "style" : {
+				"navigationBarTitleText": "影视",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				 "backgroundTextStyle": "light"  //下拉 loading 的样式，仅支持 dark/light
+			}
+		}
+		,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				 "backgroundTextStyle": "light"  //下拉 loading 的样式，仅支持 dark/light
+
+			}
+        }
+        ,{
+            "path" : "pages/watchvideo/watchvideo",
+            "style" : {
+				"navigationBarTitleText": "展示"
+			}
+        }
+        ,{
+            "path" : "pages/read/read",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mhShow/mhShow",
+            "style" :{}
+            
+        }
+        ,{
+            "path" : "pages/ysShow/ysShow",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "渡聚合",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#FFFFFF",
+		"pageOrientation":"portrait",
+		 "softinputNavBar": "none"
+	},
+	"tabBar":{
+		"selectedColor":"#5fe5dd",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"小说",
+				"iconPath":"static/img/book.png",
+				"selectedIconPath":"static/img/book_active.png"
+			},
+			{
+				"pagePath":"pages/mhIndex/mhIndex",
+				"text":"漫画",
+				"iconPath":"static/img/pic.png",
+				"selectedIconPath":"static/img/pic_active.png"
+			}
+			// #ifndef MP-WEIXIN
+			,
+			{
+				"pagePath":"pages/ysIndex/ysIndex",
+				"text":"影视",
+				"iconPath":"static/img/play.png",
+				"selectedIconPath":"static/img/play_active.png"
+			}
+			// #endif
+		]
+	}
+}

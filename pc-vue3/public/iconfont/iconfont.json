@@ -1,0 +1,65 @@
+{
+  "id": "2107836",
+  "name": "聚合平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "523245",
+      "name": "set",
+      "font_class": "set",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "1119187",
+      "name": "图标1_书、小说",
+      "font_class": "book",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "1160200",
+      "name": "pic",
+      "font_class": "pic",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "1621485",
+      "name": "垃圾桶",
+      "font_class": "lajitong",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "701295",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "3040354",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "7961099",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8332464",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

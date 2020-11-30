@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" href="<%= BASE_URL %>icon64.ico">
+	<link rel="stylesheet" href="<%= BASE_URL %>iconfont/iconfont.css">
+	<title><%= htmlWebpackPlugin.options.title %></title>
+	<script>
+      var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+      var browser = navigator.userAgent.toLowerCase();
+      var isMobile = false;
+      for (var i = 0; i < mobileAgent.length; i++) {
+          if (browser.indexOf(mobileAgent[i]) != -1) {
+              isMobile = true;
+              location.href = 'https://h5.juhe.lidppp.com';
+              break;
+          }
+      }
+	</script>
+</head>
+<body>
+<noscript>
+	<strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+		Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
