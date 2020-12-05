@@ -12,6 +12,13 @@
 
 **本人保留软件修改权，转让权，发表权，出版权!**
 
+## 预览地址
+pc: http://v3.juhe.lidppp.com/#/
+h5: https://h5.juhe.lidppp.com/#/
+小程序: 搜索 <渡聚合>
+app: https://bookapi.lidppp.com/public/apk/du_v1.0.4.apk
+
+
 ## 数据来源
 数据来源网络
 
