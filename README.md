@@ -1,4 +1,6 @@
-# 聚合"影视","小说","漫画"为一体的聚合平台
+# 聚合"影视","小说","漫画"为一体的聚合平台  
+
+## 本项目已停止维护, 所有接口已废弃并且禁用, 此项目处仅作为留根
 
 ## 免责声明
 
@@ -13,10 +15,10 @@
 **本人保留软件修改权，转让权，发表权，出版权!**
 
 ## 预览地址
-[pc](http://v3.juhe.lidppp.com/#/)  
-[h5](https://h5.juhe.lidppp.com/#/)  
-小程序: 搜索 <渡聚合>  
-[app](https://bookapi.lidppp.com/public/apk/du_v1.0.4.apk)  
+~~[pc](http://v3.juhe.lidppp.com/#/)~~  
+~~[h5](https://h5.juhe.lidppp.com/#/)~~  
+~~小程序: 搜索 <渡聚合>~~  
+~~[app](https://bookapi.lidppp.com/public/apk/du_v1.0.4.apk)~~  
 
 
 ## 数据来源
